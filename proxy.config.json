@@ -1,0 +1,6 @@
+{
+    "/EventBasedCalendar/*": {
+      "target": "http://localhost:1232",
+      "secure": false
+       }
+  }

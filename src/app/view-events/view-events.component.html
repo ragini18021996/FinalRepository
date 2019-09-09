@@ -1,0 +1,15 @@
+
+  <br>
+  <!-- <div *ngFor="let x of events">
+     {{x.title}}{{x.start|date}}{{x.end|date}}
+ </div>
+ {{events}}  -->
+
+ <div class="container">
+ <full-calendar
+ defaultView="dayGridMonth"
+ [plugins]="calendarPlugins"
+ [weekends]="true"
+ [events]=events
+>
+</full-calendar>
